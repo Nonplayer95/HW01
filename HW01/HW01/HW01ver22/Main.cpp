@@ -32,20 +32,15 @@ int main()
 	int* arr = new int[number]; //new -heap영역
 
 	 // 동적할당-실행시간 도중에 프로그래머가 필요한만큼 할당받는것
+
 	cout << "숫자 5개를 입력하십시오" << endl;
 	for (int i = 0; i < number; i++)
 	{
 		cin >> arr[i];
 	}
 	
-	
-
-	
-
 	cout << "합계" << sum(arr,number) << endl;
 	cout << "평균" << average(arr,number) << endl;
-
-
 
 	return 0;
 }
